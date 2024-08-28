@@ -27,7 +27,7 @@ interface Action {
     {
         id: 3,
         image: github,
-        href: "https://github.com.yabetsTemesgen",
+        href: "https://github.com/yabetsTemesgen",
       },
       {
         id: 4,
