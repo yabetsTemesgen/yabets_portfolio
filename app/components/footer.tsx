@@ -18,35 +18,26 @@ interface Action {
       id: 1,
       image: insta,
       href: "https://www.instagram.com/yab_tem/",
-    //   style:
-    //     " duration-300 hover: rounded hover:bg-gradient-to-tr from-yellow-400 via-pink-400 to-fuchsia-700",
     },
     {
       id: 2,
       image: linkedin,
       href: "https://www.linkedin.com/in/yabets-temesgen-21384b214/",
-    //   style: " duration-300 hover:bg-gradient-to-tr from-blue-400 to-blue-700",
     },
     {
         id: 3,
         image: github,
-        href: "https://github.com.yabetsTemesgen", //"https://t.me/yab_25",
-      //   style:
-      //   " duration-300 hover: rounded hover:bg-gradient-to-tr from-blue-400 to-blue-700",
+        href: "https://github.com.yabetsTemesgen",
       },
       {
         id: 4,
         image: telegram,
         href: "https://t.me/wipuu_2",
-      //   style:
-      //   " duration-300 hover: rounded hover:bg-gradient-to-tr from-blue-400 to-blue-700",  "https://discordapp.com/users/8544",
       },
       {
         id: 5,
         image: discord,
         href: "https://discordapp.com/users/8544",
-      //   style:
-      //   " duration-300 hover: rounded hover:bg-gradient-to-tr from-blue-400 to-blue-700",  "",
       },
   ];
 
