@@ -58,7 +58,7 @@ const Footer = () => {
       <div className="flex flex-col text-center md:flex-row justify-between my-32 lg:px-96 gap-16">
         <div>
           <h2 className="text-4xl lg:text-6xl font-bold ">
-            Let's Work <br/> <span className="text-secondary">Together</span>
+            Let&#39;s Work <br/> <span className="text-secondary">Together</span>
           </h2>
         </div>
         <div>

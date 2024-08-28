@@ -24,7 +24,7 @@ const About = () => {
             Hello! I&#39;m Yabets Temesgen
               A passionate Full Stack Developer based in Addis Ababa, Ethiopia, with a strong focus on creating
               innovative, AI-driven solutions. My expertise spans both Frontend and Backend development,
-              and I'm particularly skilled in Retrieval-Augmented Generation (RAG) tech that
+              and I&#39;m particularly skilled in Retrieval-Augmented Generation (RAG) tech that
               leverage large language models to deliver smart, data-driven applications.
             </p>
             </div>
