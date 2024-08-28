@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 lg:px-28 mb-10 text-primary-light fixed lg:text-xl bg-primary">
       <div>
-        <Link href="#home">
+        <Link scroll href="#home">
             <Image
               src={logo}
               alt="Logo"
@@ -36,7 +36,7 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-primary-light hover:scale-105 duration-200 scroll-smooth"
           >
-            <Link href={`#${link}`}>
+            <Link scroll href={`#${link}`}>
               {link}
             </Link>
           </li>

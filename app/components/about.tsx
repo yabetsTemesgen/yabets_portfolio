@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import last from "../assets/last.png"
+import Link from 'next/link';
 const About = () => {
   return (
     <div id="About" className="mx-auto p-4 md:p-8 sm:h-auto w-full bg-primary-light">
@@ -20,7 +21,7 @@ const About = () => {
             <div className="tracking-wide text-3xl md:text-5xl text-primary font-bold">About Me</div>
             <div>
             <p className="mt-2 text-primary md:text-2xl text-left lg:mr-5">
-            Hello! I'm Yabets Temesgen
+            Hello! I&#39;m Yabets Temesgen
               A passionate Full Stack Developer based in Addis Ababa, Ethiopia, with a strong focus on creating
               innovative, AI-driven solutions. My expertise spans both Frontend and Backend development,
               and I'm particularly skilled in Retrieval-Augmented Generation (RAG) tech that
@@ -29,10 +30,14 @@ const About = () => {
             </div>
             <div className="mt-4 flex flex-wrap gap-10">
               <button className="bg-primary hover:scale-105 text-secondary font-bold py-3 px-6 rounded">
+              <Link href={"https://drive.google.com/file/d/1mW2HwcIBVP2ipQTTLqLXNE6pRsTBcm3z/view?usp=sharing"} download={"Yabets resume"}>
                 Resume
+              </Link>
               </button>
               <button className="bg-primary hover:scale-105 text-secondary font-bold py-3 px-6 rounded">
+                <Link scroll href={'#Contact'}>
                 Contact
+                </Link>
               </button>
             </div>
           </div>
