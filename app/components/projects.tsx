@@ -125,6 +125,7 @@ const Projects = () => {
         height={1000}
         className="w-full h-full rounded-lg cursor-pointer"
         onClick={() => handleImageClick(project)}
+        onTouchStart={() => handleImageClick(project)}
       />
     </div>
   ))}
