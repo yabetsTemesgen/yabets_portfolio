@@ -26,14 +26,14 @@ const About = () => {
               and I&#39;m particularly skilled in Retrieval-Augmented Generation (RAG) tech that
               leverages large language models to deliver smart, data-driven applications.
             </p>
-            <div className="mt-2 py-3 sm:py-0 items-center md:items-start flex flex-col sm:flex-row gap-10">
-              <Link href={"https://drive.google.com/file/d/1mW2HwcIBVP2ipQTTLqLXNE6pRsTBcm3z/view?usp=sharing"} download={"Yabets resume"}>
-                <button className="bg-primary hover:scale-105 text-secondary font-bold py-3 px-6 rounded">
+            <div className="items-center md:items-start flex flex-col sm:flex-row gap-5 mt-5 mb-10">
+              <Link className='mt-5' href={"https://drive.google.com/file/d/1mW2HwcIBVP2ipQTTLqLXNE6pRsTBcm3z/view?usp=sharing"} download={"Yabets resume"}>
+                <button className="bg-primary hover:scale-105 text-secondary font-bold py-3 px-6 rounded w-52">
                   Resume
                 </button>
               </Link>
-              <Link scroll href={'#Contact'}>
-                <button className="bg-primary hover:scale-105 text-secondary font-bold py-3 px-6 rounded">
+              <Link  className='mt-5'scroll href={'#Contact'}>
+                <button className="bg-primary hover:scale-105 text-secondary font-bold py-3 px-6 rounded w-52">
                   Contact
                 </button>
               </Link>
