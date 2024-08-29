@@ -125,7 +125,6 @@ const Projects = () => {
         height={1000}
         className="w-full h-full rounded-lg cursor-pointer"
         onClick={() => handleImageClick(project)}
-        onTouchStart={() => handleImageClick(project)}
       />
     </div>
   ))}
@@ -160,7 +159,7 @@ const Projects = () => {
               } gap-4 mb-4`}
             >
               <img
-                src={selectedProject.image.src} // If using Next.js Image component, use .src
+                src={selectedProject.image.src}
                 alt={selectedProject.name}
                 className={`w-full ${
                   selectedProject.additionalImage ? "md:w-1/2" : "md:w-full"
