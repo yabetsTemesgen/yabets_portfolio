@@ -27,7 +27,7 @@ const About = () => {
               leverages large language models to deliver smart, data-driven applications.
             </p>
             <div className="items-center md:items-start flex flex-col sm:flex-row gap-5 mt-5 mb-10">
-              <Link className='mt-5' href={"https://drive.google.com/file/d/1mW2HwcIBVP2ipQTTLqLXNE6pRsTBcm3z/view?usp=sharing"} download={"Yabets resume"}>
+              <Link className='mt-5' href={"https://drive.google.com/file/d/1vao6DH4KUslCyfFHsh5x_S7HmXBjnJRC/view?usp=sharing"} download={"Yabets resume"}>
                 <button className="bg-primary hover:scale-105 text-secondary font-bold py-3 px-6 rounded w-52">
                   Resume
                 </button>
