@@ -22,7 +22,7 @@ interface Action {
     {
       id: 2,
       image: linkedin,
-      href: "https://www.linkedin.com/in/yabets-temesgen-21384b214/",
+      href: "https://www.linkedin.com/in/yabets-tem/",
     },
     {
         id: 3,
